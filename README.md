@@ -25,11 +25,11 @@ where $(p_x, p_y)$ is the robot's position and $\theta \in [-\pi,\pi]$ is a cont
 1. Obstacle Avoidance
     * Obstacle: circular region of radius $0.5m$ at the origin
     * Compute the backward reachable tube (BRT): the set of states from which a collision is unavoidable within $1s$.
-    * Plot the safe set for different time points: $0s, 0.5s, and 1s$
+    * Plot the _**safe set**_ for different time points: $0s, 0.5s, and 1s$
 2. Goal Reaching
     * Goal: circular region of radius $0.25m$ at the origin
     * Compute the set of states from which the robot can surely reach the goal region within $1s$.
-    * Plot the safe set for different time points: $0s, 0.5s, and 1s$
+    * Plot the _**safe set**_ for different time points: $0s, 0.5s, and 1s$
 ## Train the value function
 Obstacle Avoidance
 
