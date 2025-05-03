@@ -19,7 +19,7 @@ For the rest of the code structure, see the DeepReach repo above.
 ## Problem description
 We consider a 2-dimensional autonomous navigation robot moving at constant speed $v = 1m/s$ in the 2D plane with dynamics
 
-$$\dot{p}_x = v\;cos \theta, \quad \dot{p}_y = v\;cos \theta,$$
+$$\dot{p}_x = v cos \theta, \quad \dot{p}_y = v cos \theta,$$
 
 where $(p_x, p_y)$ is the robot's position and $\theta \in [-\pi,\pi]$ is a control input (the heading). Using Hamilton-Jacobi reachability (via the DeepReach toolbox), we solve two scenarios over a 1-second horizon:
 
