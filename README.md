@@ -20,7 +20,7 @@ We consider a 2D autonomous navigation robot moving at constant speed $v = 1m/s$
 
 $$\dot{p}_x = v \mathrm{ } cos \theta, \quad \dot{p}_y = v \mathrm{ } cos \theta,$$
 
-where $(p_x, p_y)$ is the robot's position and $\theta \in [-\pi,\pi]$ is a control input (the heading). Using Hamilton-Jacobi reachability (via the DeepReach Toolbox), we solve two scenarios over a 1-second horizon:
+where $(p_x, p_y)$ is the robot's position and $\theta \in [-\pi,\pi]$ is a control input (the heading). Using Hamilton-Jacobi reachability (via the DeepReach Toolbox), we solve two scenarios over a $1s$ horizon:
 
 1. Obstacle Avoidance
     * Obstacle: circular region of radius $0.5m$ at the origin
