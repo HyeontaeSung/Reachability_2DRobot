@@ -1,13 +1,13 @@
 # Reachability_2Drobot
 ## Environment Setup
-[DeepReach]https://github.com/smlbansal/deepreach/tree/public_release
+[DeepReach](https://github.com/smlbansal/deepreach/tree/public_release)
 
 
 ## High-Level Structure
 * `plotSafeset` plot the _**safe set**_ for time points: 0*s*, 0.5*s*, 1*s*
 * `results`: saved the plots and trained models
 * `Plot safe sets.ipynb`: jupyter notebook for plotting the _**safe set**_
-The other structure is explained in [DeepReach]https://github.com/smlbansal/deepreach/tree/public_release
+The other structure is explained in [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release)
 
 ## Train
 avoid
