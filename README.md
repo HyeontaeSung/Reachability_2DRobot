@@ -1,15 +1,20 @@
 # Reachability_2DRobot
-This repository uses [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release).
+
+This repository builds on [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release) to compute and visualize safe sets for a simple 2D robot.
+
+---
 
 ## Environment Setup
-To set up the environment, please take a look at [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release).
 
+Follow the DeepReach instructions to create the Python environment and install dependencies:  
+[DeepReach](https://github.com/smlbansal/deepreach/tree/public_release)
 
 ## High-Level Structure
-* `plotSafeset` plot the _**safe set**_ for time points: 0*s*, 0.5*s*, 1*s*
-* `results`: saved the plots and trained models
-* `Plot safe sets.ipynb` jupyter notebook for plotting the _**safe set**_
-The other structure is explained in [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release)
+* `plotSafeset` Python scripts that generate plots of the _safe set_ at \(t = 0,\,0.5,\,1.0\) s.
+* `results ' contains saved plots and trained model checkpoints.
+* `Plot safe sets.ipynb` Jupyter notebook for _**safe set**_ plots.
+  
+For the rest of the code structure, see the DeepReach repo above.
 
 ## Problem description
 We consider a 2-dimensional autonomous navigation robot moving at constant speed $v = 1m/s$ in the 2D plane with dynamics
