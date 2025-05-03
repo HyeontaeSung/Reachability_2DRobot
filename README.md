@@ -40,10 +40,15 @@ Goal Reaching
     python run_experiment.py --mode train --experiment_class DeepReach --dynamics_class AutoRobot2D --experiment_name AutoRobot2D_reach_r0.25 --minWith target --radius 0.25 --velocity 1.0 --set_mode reach
     
 ## Plot the safe set using the trained value function
+
+The blue region is the safe set for t= [0s, 0.5s, 1s] about T = 1s
+
 Obstacle Avoidance
 
     python run_plot_safeSet.py --mode avoid
     
 Goal Reaching
+
+The blue region is the safe set for t= [0s, 0.5s, 1s] about T = 1s.
 
     python run_plot_safeSet.py --mode reach
