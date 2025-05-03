@@ -9,7 +9,7 @@ This repository builds on [DeepReach](https://github.com/smlbansal/deepreach/tre
 Follow the [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release) instructions to create the Python environment and install dependencies:  
 
 ## High-Level Structure
-* `plotSafeset/plot_safeSet.py` defines the Plot_safeset class thats generate plots of the _safe set_ for \(t = 0,\,0.5,\,1.0\) s.
+* `plotSafeset/plot_safeSet.py` defines the Plot_safeset class thats generate plots of the _**safe set**_ for \(t = 0,\,0.5,\,1.0\) s.
 * `results` contains saved plots and trained model checkpoints.
 * `Plot safe sets.ipynb` is a Jupyter notebook script for _**safe set**_ plots.
   
