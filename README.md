@@ -32,13 +32,13 @@ where $(p_x, p_y)$ is the robot's position and $\theta \in [-\pi,\pi]$ is a cont
     * Plot the _**safe set**_ for different time points: $0s, 0.5s,$ and $1s$
 ## Train the value function
 1. Obstacle Avoidance
-
+```
     python run_experiment.py --mode train --experiment_class DeepReach --dynamics_class AutoRobot2D --experiment_name AutoRobot2D_avoid_r0.5 --minWith target --radius 0.5 --velocity 1.0 --set_mode avoid
-    
+```    
 2. Goal Reaching
-
+```
     python run_experiment.py --mode train --experiment_class DeepReach --dynamics_class AutoRobot2D --experiment_name AutoRobot2D_reach_r0.25 --minWith target --radius 0.25 --velocity 1.0 --set_mode reach
-    
+```    
 ## Plot the safe set using the trained value function
 
 For both scenarios below, the safe set (shown in **blue**) is plotted for time points: $t = 0s, 0.5s,$ and $1s$, with a time horizon of $T = 1s$
