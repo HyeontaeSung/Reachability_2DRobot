@@ -16,7 +16,7 @@ Follow the [DeepReach](https://github.com/smlbansal/deepreach/tree/public_releas
 For the rest of the code structure, see the DeepReach repo above.
 
 ## Problem description
-We consider a 2-dimensional autonomous navigation robot moving at constant speed $v = 1m/s$ in the 2D plane with dynamics
+We consider a 2D autonomous navigation robot moving at constant speed $v = 1m/s$ in the 2D plane with dynamics
 
 $$\dot{p}_x = v \mathrm{ } cos \theta, \quad \dot{p}_y = v \mathrm{ } cos \theta,$$
 
