@@ -41,14 +41,12 @@ Goal Reaching
     
 ## Plot the safe set using the trained value function
 
-The blue region is the safe set for t= [0s, 0.5s, 1s] about T = 1s
+For both scenarios below, the safe set (shown in **blue**) is plotted for time points: $t = 0s, 0.5s, and 1s$ with a time horizon of $T = 1s$
 
 Obstacle Avoidance
 
     python run_plot_safeSet.py --mode avoid
     
 Goal Reaching
-
-The blue region is the safe set for t= [0s, 0.5s, 1s] about T = 1s.
 
     python run_plot_safeSet.py --mode reach
