@@ -6,8 +6,7 @@ This repository builds on [DeepReach](https://github.com/smlbansal/deepreach/tre
 
 ## Environment Setup
 
-Follow the DeepReach instructions to create the Python environment and install dependencies:  
-[DeepReach](https://github.com/smlbansal/deepreach/tree/public_release)
+Follow the [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release) instructions to create the Python environment and install dependencies:  
 
 ## High-Level Structure
 * `plotSafeset/plot_safeSet.py` defines the Plot_safeset class thats generate plots of the _safe set_ for \(t = 0,\,0.5,\,1.0\) s.
