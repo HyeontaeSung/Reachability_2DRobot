@@ -49,7 +49,7 @@ For both scenarios below, the safe set (shown in **blue**) is plotted for time p
 ```
 ![Safe set at t=0s](results/AutoRobot2D_avoid_r0.5/BRS_safeSet_avoid0.5_plot.png "t = 0 s") 
     
-3. Goal Reaching
+2. Goal Reaching
 ```
     python run_plot_safeSet.py --mode reach
 ```
