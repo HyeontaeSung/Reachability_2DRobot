@@ -41,7 +41,7 @@ Goal Reaching
     
 ## Plot the safe set using the trained value function
 
-For both scenarios below, the safe set (shown in **blue**) is plotted for time points: $t = 0s, 0.5s, and 1s$ with a time horizon of $T = 1s$
+For both scenarios below, the safe set (shown in **blue**) is plotted for time points: $t = 0s, 0.5s,$ and $1s$, with a time horizon of $T = 1s$
 
 Obstacle Avoidance
 
