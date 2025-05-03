@@ -44,13 +44,13 @@ where $(p_x, p_y)$ is the robot's position and $\theta \in [-\pi,\pi]$ is a cont
 For both scenarios below, the safe set (shown in **blue**) is plotted for time points: $t = 0s, 0.5s,$ and $1s$, with a time horizon of $T = 1s$
 
 1. Obstacle Avoidance
-
+```
     python run_plot_safeSet.py --mode avoid
-
+```
 ![Safe set at t=0s](results/AutoRobot2D_avoid_r0.5/BRS_safeSet_avoid0.5_plot.png "t = 0 s") 
     
 3. Goal Reaching
-
+```
     python run_plot_safeSet.py --mode reach
-
+```
 ![Safe set at t=0s](results/AutoRobot2D_reach_r0.25/BRS_safeSet_reach0.25_plot.png "t = 0 s") 
