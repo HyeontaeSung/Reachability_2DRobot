@@ -1,6 +1,6 @@
 # Reachability_2DRobot
 
-This repository builds on [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release) to compute and visualize safe sets for a simple 2D robot.
+This repository builds on [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release) to compute and visualize the backward reachable tube (BRT) for a 2D autonomous navigation robot.
 
 ---
 
@@ -10,8 +10,8 @@ Follow the DeepReach instructions to create the Python environment and install d
 [DeepReach](https://github.com/smlbansal/deepreach/tree/public_release)
 
 ## High-Level Structure
-* `plotSafeset` Python scripts that generate plots of the _safe set_ at \(t = 0,\,0.5,\,1.0\) s.
-* `results ' contains saved plots and trained model checkpoints.
+* `plotSafeset/plot_safeSet.py` defines the Plot_safeset class thats generate plots of the _safe set_ for \(t = 0,\,0.5,\,1.0\) s.
+* `results` contains saved plots and trained model checkpoints.
 * `Plot safe sets.ipynb` Jupyter notebook for _**safe set**_ plots.
   
 For the rest of the code structure, see the DeepReach repo above.
