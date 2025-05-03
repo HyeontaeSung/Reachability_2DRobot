@@ -11,7 +11,7 @@ Follow the [DeepReach](https://github.com/smlbansal/deepreach/tree/public_releas
 ## High-Level Structure
 * `plotSafeset/plot_safeSet.py` defines the Plot_safeset class thats generate plots of the _safe set_ for \(t = 0,\,0.5,\,1.0\) s.
 * `results` contains saved plots and trained model checkpoints.
-* `Plot safe sets.ipynb` Jupyter notebook for _**safe set**_ plots.
+* `Plot safe sets.ipynb` is a Jupyter notebook script for _**safe set**_ plots.
   
 For the rest of the code structure, see the DeepReach repo above.
 
